@@ -1,0 +1,29 @@
+{
+  "name": "@sergeuz/event-promise",
+  "version": "0.1.0",
+  "description": "Promisify events",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Sergey Polyakov",
+    "email": "sergeuz@gmail.com"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*.spec.js"
+  },
+  "keywords": [
+    "event",
+    "events",
+    "promise",
+    "promisify",
+    "await",
+    "emit",
+    "emitter",
+    "listener",
+    "EventEmitter"
+  ],
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1"
+  }
+}
